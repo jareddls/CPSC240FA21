@@ -1,0 +1,16 @@
+b main
+b hertz.asm:114
+r
+n
+n
+p $rsp
+n
+Mr Santos
+p (char[10])pname
+b hertz.asm:224
+c
+3.4
+2.5
+p $xmm15.v2_double[0]
+c
+q
